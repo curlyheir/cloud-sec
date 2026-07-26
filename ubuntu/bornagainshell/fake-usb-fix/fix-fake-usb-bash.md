@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install f3
 
 
-# find device identifier neame
+# find device identifier name
 
 '''bash
 lsblk
