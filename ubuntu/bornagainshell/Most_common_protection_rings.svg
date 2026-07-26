@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">   
+<svg width="592" height="455" version="1.1"
+     viewBox="0 0 592 455" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg">
+<title>Protection rings on most CPU architectures</title>
+<desc>A graphic showing protection rings on most CPU architectures.</desc>
+<g id="Rings" transform="translate(230, 230)">
+    <g> <circle r="224" style="fill:#91ff96; stroke:black; stroke-width:1.9"/> <title>Ring 1 Least privileged—Userland</title></g>
+    <g> <circle r="132" style="fill:#ff9191; stroke:black; stroke-width:1.9"/> <title>Ring 0 Most privileged—Kernel</title></g>
+    <g id="Ring_text" text-anchor="middle" dominant-baseline="central" font-size="20">
+        <switch>
+            <text systemLanguage="en">
+                <tspan x="0" y="-192">Ring 1</tspan>
+                <tspan x="0" y="-7">Kernel</tspan>
+                <tspan x="0" y="20">Device drivers</tspan>
+            </text>
+            <text>
+                <tspan x="0" y="-192">Ring 1</tspan>
+                <tspan x="0" y="-7">Kernel</tspan>
+                <tspan x="0" y="20">Device drivers</tspan>
+            </text>
+            <!-- Put your translation comment! -->
+        </switch>
+        <switch>
+            <text y="170" systemLanguage="en">
+                <tspan x="0" y="-100">Ring 0</tspan>
+                <tspan x="0" y="170">Userland</tspan>
+                <tspan x="0" y="195">Applications</tspan>
+            </text>
+            <text y="170">
+                <tspan x="0" y="-100">Ring 0</tspan>
+                <tspan x="0" y="170">Userland</tspan>
+                <tspan x="0" y="195">Applications</tspan>
+            </text>
+            <!-- Put your translation comment! -->
+        </switch>
+    </g>
+</g>
+<g id="Key" transform="translate(500, 160)">
+    <rect x="0" y="0" width="50" height="100" style="fill:#91ff96; stroke:black; stroke-width:1.9" />
+    <rect x="0" y="100" width="50" height="100" style="fill:#ff9191; stroke:black; stroke-width:1.9" />
+    <g id="Key_text" text-anchor="middle" dominant-baseline="central" font-size="20">
+        <switch>
+            <text systemLanguage="en">
+                <tspan x="27" y="-15">Least privileged</tspan>
+                <tspan x="27" y="210">Most privileged</tspan>
+            </text>
+            <text>
+                <tspan x="27" y="-15">Least privileged</tspan>
+                <tspan x="27" y="210">Most privileged</tspan>
+            </text>
+            <!-- Put your translation above this comment! -->
+        </switch>
+    </g>
+</g>
+</svg>

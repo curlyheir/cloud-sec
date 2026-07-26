@@ -95,3 +95,58 @@ mv -v -- *.png /path/to/new/folder/
 while pasting some oldcode into shell, while pressing up and down arrows (after pressing the right arrow to solidify paste, but before using left arrow to push cursor back to where I want to change file name) it switched between an array of old lines I just typed into the command line how?
 
 Spaces between commands matter! I was getting ssh configured, and the space between the url and command made output display usage instead of execution.
+
+- Configured secure GitHub SSH authentication on Ubuntu, migrated a repository from HTTPS to SSH, & resolved Git authentication & branch synchronization issues using the Linux command line.
+
+- tried [ git mv ] to move files in working directories monitored by gitkraken.
+
+- [ grep -r "string" ] I need to remember this.
+
+- [ cat ] is short for concatenate (display file contents).
+
+- Concatenate means to connect or link in a series or chain. But in computers to arrange [input] (strings of characters) into a [output] chained list.
+
+- commands [cp,mv,rm] are some of the most frequently used day-to-day linux ops.
+
+- up arrow key (↑) to recall the last command you typed.
+
+- use tab completion in bash to save time, and avoid spelling errors
+
+- read man and practice using flags
+
+- when organizing information it sticks. my belief that all forms of content have a place. When data is put in its place, that container is a reinforcement for memory to texturalize that piece of info.
+
+- What exactly is a string again?
+
+- In the context of Bash and POSIX-compliant shells, a string is specifically defined as a contiguous sequence of bytes terminated by and including the first null byte.
+
+- Linux is a multi-user operating system. This means multiple users can use the same Linux computer simultaneously, each with their own private space and files, while also sharing some system resources. 
+
+- sucessfully used [cp] to [change file type from .txt to .md] and wrote in it using [echo "" >> filename] [echo " text here " > filename]
+
+- understanding what the terminal is, is key to truly grasping commands, pipes, flags etc. The value of characters, and what they mean, what they can do ; their weight, measurement in time = value changes.
+
+- The terminal character device files connect the kernel to the input and output.
+The critical interface connecting the kernel to input and output hardware.
+
+When a user interacts with hardware (like pressing a key on a keyboard), the CPU triggers an interrupt, causing the kernel's device driver to execute.
+
+interrupt is a signal sent to the CPU by hardware or software indicating that an even requires immediate attention. 
+
+The driver translates this hardware signal into data stored in the character device file (e.g., /dev/input/event0). 
+
+User-space programs then read from this file to receive the input.  Conversely, when a program needs to output data (like displaying text), it writes to the device file, and the kernel driver translates those bytes into signals the hardware understands. 
+
+- fixed fake usb in terminal
+
+- sudo apt install nala to speed up package fetching and downloading
+
+- learned [ ctrl + R fuzzy historal search ]
+
+[ enter ] to accept the selected command for editing.
+
+- run bleachbit every six months
+
+- make a log script instead of this, which a widget that floats on desktop if possible.
+
+- disabled [ export BASH_IT_THEME="" ] in nano ~/.bashrc

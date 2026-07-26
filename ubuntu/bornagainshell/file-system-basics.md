@@ -8,6 +8,12 @@ touch
 
 This creates a new empty file. & Overwrites timestamp of prexisting file only.
 
+'''bash
+touch note_{1..5}.txt
+'''
+
+This creates This creates note_1.txt, note_2.txt, note_3.txt, note_4.txt, and note_5.txt all at once!
+
 # mkdir
 
 '''bash
@@ -15,6 +21,12 @@ mkdir greendir
 '''
 
 this command makes directories.
+
+<mkdir can create multiple directories in one command>
+
+'''bash
+mkdir green1 green2 green3
+'''
 
 # rm
 
