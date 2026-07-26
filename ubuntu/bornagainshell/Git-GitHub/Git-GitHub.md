@@ -6,7 +6,7 @@ git add .
 
 to stage all changed files, or specify individual files (e.g., git add file.txt). 
 
-t commit -m "Describe your changes here" t
+git commit -m "Describe your changes here" 
 
 to save the snapshot to the local repository. 
 
